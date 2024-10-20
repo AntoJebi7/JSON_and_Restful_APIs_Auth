@@ -23,16 +23,22 @@ GET https://secrets-api.appbrewery.com/filter?score=5&apiKey= //yourapikey
 ## Token Based Auth :
 Generates an authentication token for a user. If the user does not exist or the password is incorrect, it will return an error.
 POST https://secrets-api.appbrewery.com/get-auth-token
+
 Returns all the secrets of the authenticated user. Bearer token authentication is required.
 GET https://secrets-api.appbrewery.com/user-secrets
+
 Returns the secret with the specified ID. Bearer token authentication is required.
 GET https://secrets-api.appbrewery.com/secrets/1
+
 Adds a new secret. Bearer token authentication is required.
 POST https://secrets-api.appbrewery.com/secrets
+
 Updates the content of the secret with the specified ID. Bearer token authentication is required.
 PUT https://secrets-api.appbrewery.com/secrets/1
+
 Partially updates the content of the secret with the specified ID. Bearer token authentication is required.
 PATCH https://secrets-api.appbrewery.com/secrets/1
+
 Deletes the secret with the specified ID. Bearer token authentication is required.
 DELETE https://secrets-api.appbrewery.com/secrets/1
 
