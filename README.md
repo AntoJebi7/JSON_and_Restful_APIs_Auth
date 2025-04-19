@@ -10,17 +10,11 @@ Learn how to work with APIs, including understanding **Base URLs**, **Endpoints*
 
 BaseURL/Endpoint
 
-makefile
-Copy
-Edit
 
 **Example:**
 
 https://api.example.com/users
 
-yaml
-Copy
-Edit
 
 - `BaseURL` → `https://api.example.com`
 - `Endpoint` → `/users`
@@ -35,9 +29,6 @@ Used to filter or refine the request. They come **after a `?`**, and multiple pa
 
 https://api.example.com/filter?type=education&participants=1
 
-pgsql
-Copy
-Edit
 
 - `type=education`
 - `participants=1`
@@ -48,9 +39,7 @@ Used to access a specific resource using its ID or name. They are part of the UR
 
 https://api.example.com/activity/3943506
 
-yaml
-Copy
-Edit
+
 
 - `3943506` is a path parameter (the activity key)
 
