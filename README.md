@@ -1,4 +1,4 @@
-# 🌍 API Basics with Real Examples
+# 🌍 API Basics with RealTime Examples
 
 Learn how to work with APIs, including understanding **Base URLs**, **Endpoints**, **Query Parameters**, **Path Parameters**, and handling **JSON** data in JavaScript. Real API examples from:
 - 🚀 Where the ISS At API: https://api.wheretheiss.at
